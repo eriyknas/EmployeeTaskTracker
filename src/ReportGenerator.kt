@@ -18,7 +18,7 @@ class DevelopmentDepartmentWithReport : ReportGenerator {
         return "Отчёт по отделу:\nНазвание: $name\nЗадача: Разработка ПО"
     }
 }
-fun main() {
+fun showPolymorphism() {
     val reports: List<ReportGenerator> = listOf(
         EmployeeWithReport("Анна Сидорова", "Дизайнер"),
         DevelopmentDepartmentWithReport()
